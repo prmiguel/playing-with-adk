@@ -1,8 +1,4 @@
-# Template project for building Java agents with ADK
-
-This GitHub repository is a project template to get started creating your first 
-agent with [ADK](https://google.github.io/adk-docs/) for Java, the open source
-Agent Development Kit, and building with [Maven](https://maven.apache.org).
+# Playing With Java ADK
 
 ![](https://google.github.io/adk-docs/assets/agent-development-kit.png)
 
@@ -50,7 +46,7 @@ The Dev UI offers a useful chat interface to interact with your agent.
 Run the command below to launch it, and open a browser at `http://localhost:8080/`.
 
 ```shell
-mvn compile exec:java -Dexec.mainClass=com.example.agent.HelloWeatherAgent
+mvn compile exec:java -Dexec.mainClass=play.with.adk.agent.HelloWeatherAgent
 ```
 
 In your browser, you can select the agent in the top left-hand corner and chat with it in the main chat space.
@@ -71,7 +67,7 @@ Type `quit` to exit the agent conversation.
 Run the following Maven command to launch the agent in the terminal, after having uncommented the custom run loop:
 
 ```shell
-mvn compile exec:java -Dexec.mainClass="com.example.agent.HelloWeatherAgent"
+mvn compile exec:java -Dexec.mainClass="play.with.adk.agent.HelloWeatherAgent"
 ```
 
 <details>
